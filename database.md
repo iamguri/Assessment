@@ -17,7 +17,8 @@
   guri@guri-Notebook:~$ sudo systemctl start mysql
 
 6. Whitelist your local-server on - <br />
-  guri@guri-Notebook:~$ sudo vi /etc/mysql/mysql.conf.d/mysql.cnf [Bind IP in this file]
+  guri@guri-Notebook:~$ sudo vi /etc/mysql/mysql.conf.d/mysql.cnf <br />
+  [Bind IP in this file]
 
 # **login using** <br />
 1. guri@guri-Notebook:~$ mysql -u root -p <br />
