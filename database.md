@@ -77,3 +77,12 @@
 | gurjeet   | singh    | 123456789 | 123456 | gurjeetbhari@gmail.com |
 +-----------+----------+-----------+--------+------------------------+
 </pre>
+
+10 alter table (adding new col) - <br />
+ *mysql> alter table Contact add address varchar(255);*
+ <pre>+-----------+----------+-----------+--------+------------------------+---------+
+| Firstname | Lastname | Phone     | Mobile | email                  | address |
++-----------+----------+-----------+--------+------------------------+---------+
+| gurjeet   | singh    | 123456789 | 123456 | gurjeetbhari@gmail.com | NULL    |
++-----------+----------+-----------+--------+------------------------+---------+
+</pre>
