@@ -20,7 +20,7 @@
   *guri@guri-Notebook:~$ sudo vi /etc/mysql/mysql.conf.d/mysql.cnf* <br />
   [Bind IP in this file]
 
-# **login using** <br />
+# **login** <br />
 1. *guri@guri-Notebook:~$ mysql -u root -p <br />*
     then enter the password that you provided during configuration.
 
