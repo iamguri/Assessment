@@ -1,4 +1,4 @@
-#Installation and Configuration
+# **Installation and Configuration**
 
 1. Install mysql server - <br />
   guri@guri-Notebook:~$ sudo apt-get install mysql-server
@@ -19,7 +19,7 @@
 6. Whitelist your local-server on - <br />
   guri@guri-Notebook:~$ sudo vi /etc/mysql/mysql.conf.d/mysql.cnf [Bind IP in this file]
 
-#login using root credential <br />
+# **login using** <br />
 1. guri@guri-Notebook:~$ mysql -u root -p <br />
     then enter the password that you provided during configuration.
 
@@ -53,7 +53,6 @@
 
 8. mysql> describe Contact; <br />
 <pre>
-mysql> describe Contact;
 +-----------+--------------+------+-----+---------+-------+
 | Field     | Type         | Null | Key | Default | Extra |
 +-----------+--------------+------+-----+---------+-------+
