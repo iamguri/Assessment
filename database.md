@@ -67,9 +67,9 @@
 
 
 9. inserting data into table - <br />
-  *insert into Contact (Firstname, Lastname, Phone, Mobile, email) values ("gurjeet","singh","123456789","123456","gurjeetbhari@gmail.com");*
+  *mysql> insert into Contact (Firstname, Lastname, Phone, Mobile, email) values ("gurjeet","singh","123456789","123456","gurjeetbhari@gmail.com");*
 
-10. *select * from Contact;*
+10. *mysql> select * from Contact;*
 <pre>
 +-----------+----------+-----------+--------+------------------------+
 | Firstname | Lastname | Phone     | Mobile | email                  |
