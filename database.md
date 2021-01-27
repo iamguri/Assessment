@@ -67,7 +67,7 @@
 
 
 9. inserting data into table - <br />
-  *insert into Contact (Firstname, Lastname, Phone, Mobile, email) values ("gurjeet","singh","123456789","1234567","gurjeetbhari@gmail.com");*
+  *insert into Contact (Firstname, Lastname, Phone, Mobile, email) values ("gurjeet","singh","123456789","123456","gurjeetbhari@gmail.com");*
 
 10. *select * from Contact;*
 <pre>
